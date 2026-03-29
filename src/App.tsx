@@ -168,6 +168,8 @@ export default function App() {
   const [assets, setAssets] = useState(initialMediaAssets);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [isMediaLibraryOpen, setIsMediaLibraryOpen] = useState(false);
+  const [isSaveTemplateModalOpen, setIsSaveTemplateModalOpen] = useState(false);
+  const [newTemplateName, setNewTemplateName] = useState('');
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   // Toggle Dark Mode
@@ -224,10 +226,15 @@ export default function App() {
   };
 
   const saveAsTemplate = () => {
-    const name = prompt('Nome do template:');
-    if (name) {
-      setSavedTemplates([...savedTemplates, { id: 't' + Date.now(), name, blocks: [...blocks] }]);
-      alert('Template salvo com sucesso!');
+    setNewTemplateName('');
+    setIsSaveTemplateModalOpen(true);
+  };
+
+  const confirmSaveTemplate = () => {
+    if (newTemplateName.trim()) {
+      setSavedTemplates([...savedTemplates, { id: 't' + Date.now(), name: newTemplateName.trim(), blocks: [...blocks] }]);
+      setIsSaveTemplateModalOpen(false);
+      setActiveView('templates');
     }
   };
 
@@ -646,6 +653,36 @@ export default function App() {
               </div>
             </div>
 
+          </div>
+        </div>
+      )}
+
+      {/* --- Save Template Modal --- */}
+      {isSaveTemplateModalOpen && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-900/50 backdrop-blur-sm p-4">
+          <div className="bg-white dark:bg-slate-900 w-full max-w-md rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-slate-200 dark:border-slate-800">
+            <div className="p-6 border-b border-slate-200 dark:border-slate-800 flex justify-between items-center">
+              <h2 className="text-xl font-bold text-slate-900 dark:text-white">Salvar como Template</h2>
+              <button onClick={() => setIsSaveTemplateModalOpen(false)} className="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full transition-colors">
+                <X size={20} className="text-slate-500" />
+              </button>
+            </div>
+            <div className="p-6">
+              <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Nome do Template</label>
+              <input
+                type="text"
+                value={newTemplateName}
+                onChange={(e) => setNewTemplateName(e.target.value)}
+                className="w-full px-4 py-2 border border-slate-300 dark:border-slate-700 rounded-lg bg-white dark:bg-slate-950 text-slate-900 dark:text-white focus:ring-2 focus:ring-primary/20 outline-none"
+                placeholder="Ex: Meu Template Incrível"
+                autoFocus
+                onKeyDown={(e) => e.key === 'Enter' && confirmSaveTemplate()}
+              />
+            </div>
+            <div className="p-6 border-t border-slate-200 dark:border-slate-800 flex justify-end gap-3 bg-slate-50 dark:bg-slate-950/50">
+              <button onClick={() => setIsSaveTemplateModalOpen(false)} className="px-4 py-2 text-sm font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors">Cancelar</button>
+              <button onClick={confirmSaveTemplate} disabled={!newTemplateName.trim()} className="px-4 py-2 text-sm font-medium bg-primary text-white rounded-lg hover:bg-primary-container disabled:opacity-50 disabled:cursor-not-allowed transition-colors">Salvar</button>
+            </div>
           </div>
         </div>
       )}
