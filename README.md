@@ -64,6 +64,9 @@ Este projeto foi desenvolvido para a disciplina Prompt and Artificial Intelligen
 Olavo Dadario
 RM: 569272
 
+Jhon Cutile Titirico
+RM: 571976
+
 ---
 
 ## Observações
