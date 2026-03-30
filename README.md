@@ -2,64 +2,91 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-## Como acessar e testar??
-
-Apenas clique nesse link!!!
-https://ai.studio/apps/64d1bb14-738a-4847-a43e-b555fe88289e
-
 # Web Builder - Criador e Editor de Páginas Web
 
-## Sobre o Projeto
-
-Este projeto foi desenvolvido como trabalho acadêmico com o objetivo de criar uma interface moderna, intuitiva e flexível para a criação e reestilização de páginas web.
-
-A proposta é permitir que o usuário monte páginas de forma dinâmica, tendo liberdade para personalizar tanto o visual quanto a estrutura, utilizando um sistema baseado em blocos.
+O **Web Builder** é uma aplicação web que permite criar e editar páginas de forma simples e dinâmica.  
+O usuário pode montar layouts utilizando blocos e personalizar o estilo da página sem precisar de conhecimento avançado em programação.
 
 ---
 
-## Funcionalidades
+## Integrantes
 
-Modo claro e modo escuro, com alternância dinâmica para melhorar a experiência do usuário.
+- **Olavo Dadario Vianna Barreto** — RM: 569272  
+- **Paulo Henrique Lira Bilac de Araujo** — RM: 569496  
+- **Jhon Cutile Titirico** — RM: 571976  
+- **Mateus de Oliveira Fernandes Neves** — RM: 572431  
 
-Sistema de tipografia que permite ajustar tamanho do texto, escolher fontes, alterar peso (negrito) e outros estilos.
+---
 
-Gerenciamento de mídia, com opção de inserir, trocar e editar imagens e GIFs de forma simples.
+## Como usar o app
 
-Editor modular por blocos, permitindo organizar o conteúdo da página em:
+1. Acesse o link do projeto.  
+2. Escolha entre modo claro ou modo escuro.  
+3. Adicione blocos à página (texto, imagem ou nota).  
+4. Edite o conteúdo de cada bloco.  
+5. Personalize a tipografia (tamanho, fonte, negrito, etc.).  
+6. Insira ou altere imagens e GIFs.  
+7. Organize os blocos para montar o layout da página.  
 
-* Blocos de texto
-* Blocos de imagens
-* Blocos de notas
+---
+
+## Parâmetros utilizados
+
+- **Modo claro/escuro:** melhora a usabilidade conforme a preferência do usuário.  
+- **Tipografia:** permite ajustar tamanho, fonte e peso do texto para melhor leitura.  
+- **Blocos modulares:** facilitam a organização do conteúdo.  
+- **Gerenciamento de mídia:** possibilita adicionar imagens e GIFs à página.  
+
+Esses parâmetros foram escolhidos para tornar o sistema mais intuitivo, flexível e fácil de usar.
+
+---
+
+## Exemplos de saída
+
+Adicione aqui prints dos 3 testes realizados no app, por exemplo:
+
+- Página com foco em texto  
+- Página com imagens  
+- Página com layout completo (texto + imagens + notas)  
+
+
+---
+
+## Como acessar e testar
+
+Acesse o projeto pelo link abaixo:
+
+🔗 https://ai.studio/apps/64d1bb14-738a-4847-a43e-b555fe88289e
 
 ---
 
 ## Tecnologias Utilizadas
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5  
+- CSS3  
+- JavaScript  
 
 ---
 
 ## Objetivo Acadêmico
 
-Este projeto foi desenvolvido para a disciplina Prompt and Artificial Intelligence, com foco em desenvolvimento front-end e design de interfaces.
+Este projeto foi desenvolvido para a disciplina **Prompt and Artificial Intelligence**, com foco em desenvolvimento front-end e design de interfaces.
 
 ---
 
-## Autores
+## Aprendizados
 
-Olavo Dadario Vianna Barreto
-RM: 569272
+**Olavo Dadario Vianna Barreto:**  
+Durante a criação do site, compreendi a importancia do design e sobre como fazer algo chamativo, e tambem entendi como sao aplicados e manipulados os codigos javascript e sua estrutura.
 
-Paulo Henrique Lira Bilac de Araujo
-RM: 569496
+**Paulo Henrique Lira Bilac de Araujo:**  
 
-Jhon Cutile Titirico 
-RM: 571976
 
-Mateus de Oliveira Fernandes Neves
-RM: 572431
+**Jhon Cutile Titirico:**  
+
+
+**Mateus de Oliveira Fernandes Neves:**  
+
 
 ---
 
