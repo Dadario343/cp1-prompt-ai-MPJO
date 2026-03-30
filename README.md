@@ -86,7 +86,7 @@ Durante a criação do site, compreendi a importancia do design e sobre como faz
 
 
 **Mateus de Oliveira Fernandes Neves:**  
-
+Com a criação deste site consegui absorver e aprender mais sobre como é feito o pedido para as inteligências artificiais para a realização de uma tarefa ou trabalho. Além disso, conheci a plataforma Stitch, onde foi possível não apenas definir como o site deveria parecer, mas também facilitar muito a criação do prompt para o AI Studio do Google. Todas as plataformas foram exploradas ao máximo, e em minha concepção, afirmo que de agora em diante será muito mais fácil realizar tarefas similares a esta quando necessário.
 
 ---
 
