@@ -10,4 +10,4 @@
 
 ## Video de Teste do site
 
-https://drive.google.com/file/d/16B0rYjdzuQ_GwyQTovzb-FFj0eEpSId1/view?usp=drive_link
+https://drive.google.com/file/d/1G1x2u_5pjzRjKy9Q8OoWYXGTY4_A2JhY/view?usp=sharing
