@@ -79,11 +79,13 @@ Este projeto foi desenvolvido para a disciplina **Prompt and Artificial Intellig
 **Olavo Dadario Vianna Barreto:**  
 Durante a criação do site, pude compreender melhor a importância do design e de como tornar uma página mais chamativa e intuitiva para o usuário. Além disso, aprendi como os códigos em JavaScript são aplicados na prática, entendendo melhor sua estrutura e funcionamento. Essa experiência contribuiu para ampliar minha visão sobre desenvolvimento web e facilitou meu aprendizado em relação à organização e implementação de funcionalidades no projeto.
 
+
 **Paulo Henrique Lira Bilac de Araujo:** 
 Durante a criação deste site, consegui aprender melhor como funcionam os pedidos feitos para inteligências artificiais, entendendo como montar prompts mais claros e eficientes para obter bons resultados. Nesse processo, também conheci a plataforma Stitch, que ajudou bastante tanto na parte visual do site quanto na criação dos prompts para o AI Studio do Google. No geral, foi uma experiência muito útil, que me deixou mais preparado e com mais facilidade para realizar projetos parecidos no futuro.
 
 
 **Jhon Cutile Titirico:**  
+Durante a criação do site, foi possível aprender mais sobre a importância de um design atrativo e fácil de usar, além de entender melhor como aplicar códigos, especialmente em JavaScript, na prática. Também houve um avanço no uso de inteligências artificiais, principalmente na elaboração de prompts mais claros e eficientes para obter bons resultados. O uso da plataforma Stitch ajudou tanto na parte visual quanto na organização do projeto. No geral, a experiência foi muito útil, facilitando o aprendizado e preparando melhor para desenvolver projetos semelhantes no futuro.
 
 
 **Mateus de Oliveira Fernandes Neves:**  
